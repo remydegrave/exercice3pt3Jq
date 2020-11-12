@@ -1,11 +1,11 @@
 $(document).ready(function(){     
-    //Dès qu'on clique sur #b1, on applique le hide/Masquer () au titre
+    //Dès qu'on clique sur #hide, on applique hide() au paragraphe
     $("#hide").click(function(){
-        $("#texte").hide();
+        $("p").hide(2000);
     });
     
-    //Dès qu'on clique sur #b1, on applique le show/Afficher () au titre
+    //Dès qu'on clique sur #show, on applique show() au paragraphe
     $("#show").click(function(){
-        $("#texte").show();
+        $("p").show(2000);
     });
 });
